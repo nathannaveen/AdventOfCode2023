@@ -14,7 +14,7 @@ func main() {
 }
 
 func part1() {
-	file, err := os.Open("One/input.txt")
+	file, err := os.Open("1/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -48,7 +48,7 @@ func part1() {
 }
 
 func part2() {
-	file, err := os.Open("One/input.txt")
+	file, err := os.Open("1/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
